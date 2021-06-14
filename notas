@@ -1,0 +1,23 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+cree los estilos primer, en los globales esta todo lo que tiene que ver con el texto fondo y tipo de fuente 
+ademas agregue un boxsizing border box que dice el chico del curso que todos mis documentos tienen que tener, el cual esta en la parte superios de estas notas
+
+BEM : BLOG ELEMENT MODIFIER, es una metodologia para crear codigo reutilizable y ordenado en tus proyectos con css
+hay que seguir algunas convenciones de BEM
+gracias a estas convenciones se evita la colision de nombres
+
+reglas de BEM: 
+Bloques: contenedor, si una seccion por si sola  es significativa y no requiere deotras secciones para su aparciencia, deberia ir en un Bloques
+Elementos: parte de un bloque, depende del bloque y no es por si solo significativo; tiene caracteristicas que utilizan el nombre del bloque y despues el guion bajo _
+ejemplo: 
+<p class ="cliente__nombre"> ...</p>
+.cliente__nombre{}
+Modificadores: es una bandera que avisa que ese elemento tendra un diseño diferente 
+< p class="cliente__nombre--ceo">...</p>
+.cliente__nombre--ceo{}
