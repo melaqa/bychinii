@@ -1,9 +1,9 @@
 :root {
   --primario: #faf1e5;
-  --promarioOscuro: #fcc29c;
-  --secundario: #cfb4cb;
-  --secundarioOscuto: #ccaaff;
-  --blanco: rgb(224, 108, 108);
+  --promarioOscuro: #f0d8c8;
+  --secundario: #f5c2ed;
+  --secundarioOscuto: #cec0e4;
+  --blanco: rgba(252, 174, 174, 0.856);
   --negro: #000;
   --fuenteprincipal: "Staatliches", cursive;
 }
