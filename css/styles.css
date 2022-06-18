@@ -1,7 +1,7 @@
 :root {
-  --primario: #faf1e5;
-  --promarioOscuro: #f0d8c8;
-  --secundario: #f5c2ed;
+  --primario: #ffe2c296;
+  --promarioOscuro: #576b5f;
+  --secundario: #8d8375;
   --secundarioOscuto: #cec0e4;
   --blanco: rgba(252, 174, 174, 0.856);
   --negro: #000;
@@ -98,17 +98,7 @@ h3 {
   color: var(--primario);
 }
 
-/** GRID **/
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-}
-@media (min-width: 768px) {
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
+
 
 /**Productos **/
 .producto {
@@ -133,20 +123,8 @@ h3 {
   margin: 1rem;
 }
 
-/**graficos**/
-.graficos {
-  min-height: 30rem;
-}
-.grafico--camisas {
-  grid-row: 2/3;
-  grid-column: 1/3;
-  background-image: url(../img/grafico_1.PNG);
-}
-.grafico--dos {
-  grid-row: 5/6;
-  grid-column: 2/4;
-  background-image: url(../img/grafico_2.png);
-}
+
+
 
 /** NOSOTROS **/ 
 .nosotros{
