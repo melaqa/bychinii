@@ -41,6 +41,7 @@ img {
 .contenedor {
   max-width: 120em;
   margin: 0 auto;
+  font-size: 2rem;
 }
 
 h1,
@@ -58,7 +59,7 @@ h2 {
   font-size: 2rem;
 }
 h3 {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 /**header**/
@@ -67,13 +68,13 @@ h3 {
   justify-content: center;
 }
 .header__logo {
-  margin: 3rem 0;
+  margin: 0.2rem;
 }
 /**footer**/
 .footer {
   background-color: var(--promarioOscuro);
   padding: 1rem 0;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .footer__texto {
   font-family: var(--fuenteprincipal);
@@ -106,7 +107,12 @@ h3 {
   padding: 1rem;
 }
 .producto__imagen {
-  width: 100%;
+  width: 5rem;
+  display:list-item;
+  justify-content: flex-end;
+  align-items: center;
+  
+
 }
 .producto__informacion {
   text-align: center;
@@ -136,6 +142,4 @@ grid-template-columns: repeat(2,1fr);
 text-align: center;
 
 }
-.nosotros__imagen{
 
-}
