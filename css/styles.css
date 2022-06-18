@@ -3,7 +3,7 @@
   --promarioOscuro: #576b5f;
   --secundario: #8d8375;
   --secundarioOscuto: #cec0e4;
-  --blanco: rgba(252, 174, 174, 0.856);
+  --blanco: rgba(228, 203, 203, 0.856);
   --negro: #000;
   --fuenteprincipal: "Staatliches", cursive;
 }
@@ -52,13 +52,13 @@ h3 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 h2 {
-  font-size: 3.2rem;
+  font-size: 2rem;
 }
 h3 {
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 
 /**header**/
@@ -78,7 +78,7 @@ h3 {
 .footer__texto {
   font-family: var(--fuenteprincipal);
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 1rem;
 }
 /**NAVEGACION**/
 .navegacion {
@@ -91,7 +91,7 @@ h3 {
 .navegacion__enlace {
   font-family: "Staatliches", cursive;
   color: var(--blanco);
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 .navegacion_enlace--activo,
 .navegacion__enlace:hover {
