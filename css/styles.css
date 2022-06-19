@@ -46,7 +46,8 @@ img {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   text-align: center;
   color: var(--secundario);
   font-family: "Staatliches", cursive;
@@ -61,6 +62,9 @@ h2 {
 h3 {
   font-size: 1rem;
 }
+h4 {
+font-size: 1rem;
+}
 
 /**header**/
 .header {
@@ -68,7 +72,8 @@ h3 {
   justify-content: center;
 }
 .header__logo {
-  margin: 0.2rem;
+  margin: 0rem;
+  
 }
 /**footer**/
 .footer {
@@ -84,15 +89,15 @@ h3 {
 /**NAVEGACION**/
 .navegacion {
   background-color: var(--promarioOscuro);
-  padding: 1rem 0;
+  padding: 0rem;
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 .navegacion__enlace {
   font-family: "Staatliches", cursive;
   color: var(--blanco);
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .navegacion_enlace--activo,
 .navegacion__enlace:hover {
@@ -102,32 +107,15 @@ h3 {
 
 
 /**Productos **/
-.producto {
-  background-color: var(--promarioOscuro);
-  padding: 1rem;
-}
 .producto__imagen {
-  width: 5rem;
-  display:list-item;
-  justify-content: flex-end;
-  align-items: center;
-  
+flex-direction: row;
+display: flex;
+position:relative;
+margin:inherit;
+padding: 0em;
+}
 
-}
-.producto__informacion {
-  text-align: center;
-  line-height: 1.2rem;
-}
-.producto__nombre {
-  font-size: 6rem;
-}
-.producto__precio {
-  font-size: 2.8rem;
-}
-.producto__nombre .producto__precio {
-  font-family: var(--fuenteprincipal);
-  margin: 1rem;
-}
+
 
 
 
