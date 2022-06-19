@@ -5,7 +5,7 @@
   --secundarioOscuto: #cec0e4;
   --blanco: rgba(228, 203, 203, 0.856);
   --negro: #000;
-  --fuenteprincipal: "Staatliches", cursive;
+ 
 }
 
 html {
@@ -26,7 +26,6 @@ body {
 }
 p {
   font-size: 4rem;
-  font-family: var(--fuenteprincipal);
   color: var(--blanco);
 }
 
@@ -50,11 +49,11 @@ h3,
 h4 {
   text-align: center;
   color: var(--secundario);
-  font-family: "Staatliches", cursive;
+  font-family: "Alice", serif;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 h2 {
   font-size: 2rem;
@@ -78,11 +77,12 @@ font-size: 1rem;
 /**footer**/
 .footer {
   background-color: var(--promarioOscuro);
-  padding: 1rem 0;
-  margin-top: 1rem;
+  padding: 0rem 0;
+  margin-top: 20rem;
+  place-content:bottom;
 }
 .footer__texto {
-  font-family: var(--fuenteprincipal);
+  font-family: "Alice", serif;
   text-align: center;
   font-size: 1rem;
 }
@@ -95,7 +95,7 @@ font-size: 1rem;
   gap: 1rem;
 }
 .navegacion__enlace {
-  font-family: "Staatliches", cursive;
+  font-family: "Alice", serif;
   color: var(--blanco);
   font-size: 1rem;
 }
@@ -107,12 +107,24 @@ font-size: 1rem;
 
 
 /**Productos **/
+.producto{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  margin: inherit;
+  padding: 0rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.05rem;
+}
 .producto__imagen {
 flex-direction: row;
 display: flex;
 position:relative;
 margin:inherit;
-padding: 0em;
+padding: 0rem;
+justify-content: center;
+align-items: center;
 }
 
 
