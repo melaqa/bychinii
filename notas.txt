@@ -13,10 +13,10 @@ hay que seguir algunas convenciones de BEM
 gracias a estas convenciones se evita la colision de nombres
 
 reglas de BEM: 
-Bloques: contenedor, si una seccion por si sola  es significativa y no requiere deotras secciones para su aparciencia, deberia ir en un Bloques
+Bloques: contenedor, si una seccion por si sola  es significativa y no requiere de otras secciones para su aparciencia, deberia ir en un Bloques
 Elementos: parte de un bloque, depende del bloque y no es por si solo significativo; tiene caracteristicas que utilizan el nombre del bloque y despues el guion bajo _
 ejemplo: 
-<p class ="cliente__nombre"> ...</p>
+
 .cliente__nombre{}
 Modificadores: es una bandera que avisa que ese elemento tendra un diseño diferente 
 < p class="cliente__nombre--ceo">...</p>
